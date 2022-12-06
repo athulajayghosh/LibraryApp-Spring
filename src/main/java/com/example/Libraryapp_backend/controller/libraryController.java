@@ -22,7 +22,7 @@ public class libraryController {
     }
     @PostMapping("/editbook")
     public String editbook(){
-        return "Edit book page";
+        return "Edit book page page";
     }
     @GetMapping("/viewallbook")
     public String viewallbook(){
